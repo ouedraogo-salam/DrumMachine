@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+}
+
+#drum-machine{
+    width: 40%;
+    height: 300px;
+    margin: 0px;
+}
+.drum-pad{
+    width: 30%;
+    height: 75px;
+    margin: 4px;
+    padding-top: 24px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#display{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}
+.volume{
+    width: 200px;
+    height: 10px;
+    background-color: aqua;
+}
+
+#power{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+}
+
+#power span{
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#power span.toggle{
+    position: absolute;
+    width: 50px;
+    height: 100%;
+}
